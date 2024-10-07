@@ -49,9 +49,9 @@ const Header = () => {
           </p>
           {
             buttonNavigation.map(({title})=>(
-              <p key={title} className='uppercase hidden md:inline-flex text-sm font-semibold text-primary hover:text-oreng duration-500 overflow-hidden group'>{title}</p>
+              <p key={title} className='uppercase hidden md:inline-flex text-sm font-semibold text-primary hover:text-oreng duration-500 overflow-hidden group'
+              >{title}</p>
             )) 
-            // MENIT 38:15
           }
         </Container>
       </div>
